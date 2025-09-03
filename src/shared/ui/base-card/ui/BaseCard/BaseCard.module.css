@@ -1,0 +1,30 @@
+.card {
+    background-color: var(--color-neutral-light);
+    width: 500px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-bottom: 24px;
+    padding: 16px;
+    display: inline-block;
+}
+
+.title {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.description {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.cardInput {
+    margin-bottom: 12px;
+    width: 95%;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
